@@ -20,4 +20,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   base: '/html-capitulo1/', // <--- ¡Agrega esta línea!
+    build: {
+    outDir: 'dist',
+  },
 }));
