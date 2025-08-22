@@ -19,4 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: '/html-capitulo1/', // <--- ¡Agrega esta línea!
 }));
